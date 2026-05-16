@@ -1,0 +1,45 @@
+{
+  "project": "AI-Powered Kerala Farmer Companion",
+  "evaluation_date": "2026-04-24T08:09:58.631148",
+  "results": {
+    "chatbot": {
+      "BLEU": 0.0121,
+      "ROUGE-1": 0.1422,
+      "ROUGE-2": 0.0397,
+      "ROUGE-L": 0.106,
+      "samples": 5
+    },
+    "yield_prediction": {
+      "R2_score": 0.0506,
+      "RMSE": 14.4145,
+      "MAE": 5.9189,
+      "test_samples": 1524,
+      "training_rows": 7620,
+      "crops_evaluated": 10,
+      "per_crop_r2": {
+        "Arecanut": -0.096,
+        "Paddy": 0.486,
+        "Turmeric": 0.867,
+        "Banana": 0.885,
+        "Cashew": -92.324,
+        "Ginger": 0.861,
+        "Tapioca": 0.98,
+        "Coconut": -0.285,
+        "Cardamom": -32.523,
+        "Pepper": 0.809
+      }
+    },
+    "rag_retrieval": {
+      "avg_precision": 0.8,
+      "queries_tested": 5,
+      "pdf_sources": 5,
+      "total_chunks": 2319
+    },
+    "performance": {
+      "avg_response_ms": 899.2,
+      "min_response_ms": 6.5,
+      "max_response_ms": 3558.9,
+      "endpoints_tested": 4
+    }
+  }
+}

@@ -1,0 +1,24 @@
+Apr 16 17:05:37.112 INFO Removing files from base directory of "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe", preserving commit folder: 41dd792b5e, main_exe: Some("Code.exe"), proxy_exe: None
+Apr 16 17:05:37.115 INFO remove_files: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe", commit: 41dd792b5e, main_exe: Some("Code.exe"), proxy_exe: None
+Apr 16 17:05:37.115 INFO Reading top-level directory: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code"
+Apr 16 17:05:37.116 INFO Skipping commit folder: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\41dd792b5e"
+Apr 16 17:05:37.116 INFO Processing bin directory: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+Apr 16 17:05:37.116 INFO Skipping non-old file in bin: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code"
+Apr 16 17:05:37.116 INFO Skipping non-old file in bin: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code-tunnel.exe"
+Apr 16 17:05:37.117 INFO Skipping non-old file in bin: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code.cmd"
+Apr 16 17:05:37.117 INFO Skipping non-old file in bin: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\new_code"
+Apr 16 17:05:37.117 INFO Skipping non-old file in bin: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\new_code-tunnel.exe"
+Apr 16 17:05:37.117 INFO Skipping non-old file in bin: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\new_code.cmd"
+Apr 16 17:05:37.117 INFO Skipping code_path executable: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+Apr 16 17:05:37.117 INFO Skipping VisualElementsManifest.xml: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.VisualElementsManifest.xml"
+Apr 16 17:05:37.117 INFO Get file handle: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\new_Code.exe" (attempt 1)
+Apr 16 17:05:37.117 INFO Get file handle: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\new_Code.VisualElementsManifest.xml" (attempt 1)
+Apr 16 17:05:37.117 INFO Skipping unins file: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\unins000.dat"
+Apr 16 17:05:37.117 INFO Skipping unins file: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\unins000.exe"
+Apr 16 17:05:37.117 INFO Skipping unins file: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\unins000.msg"
+Apr 16 17:05:37.117 INFO Collected all directories and file handles for removal
+Apr 16 17:05:37.117 INFO All file handles marked for deletion
+Apr 16 17:05:37.117 INFO All files deleted
+Apr 16 17:05:37.117 INFO Delete directory recursively: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\560a9dba96" (attempt 1)
+Apr 16 17:05:44.131 INFO File removal operation completed
+Apr 16 17:05:44.132 INFO Successfully completed file removal operation

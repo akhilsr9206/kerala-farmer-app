@@ -1,0 +1,18 @@
+Apr 13 12:14:21.057 INFO Removing files from base directory of "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe", preserving commit folder: 41dd792b5e, main_exe: Some("Code.exe"), proxy_exe: None
+Apr 13 12:14:21.061 INFO remove_files: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe", commit: 41dd792b5e, main_exe: Some("Code.exe"), proxy_exe: None
+Apr 13 12:14:21.061 INFO Reading top-level directory: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code"
+Apr 13 12:14:21.061 INFO Skipping commit folder: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\41dd792b5e"
+Apr 13 12:14:21.062 INFO Processing bin directory: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+Apr 13 12:14:21.062 INFO Skipping non-old file in bin: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code"
+Apr 13 12:14:21.062 INFO Skipping non-old file in bin: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code-tunnel.exe"
+Apr 13 12:14:21.062 INFO Skipping non-old file in bin: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code.cmd"
+Apr 13 12:14:21.062 INFO Skipping code_path executable: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+Apr 13 12:14:21.062 INFO Skipping VisualElementsManifest.xml: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.VisualElementsManifest.xml"
+Apr 13 12:14:21.062 INFO Skipping unins file: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\unins000.dat"
+Apr 13 12:14:21.062 INFO Skipping unins file: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\unins000.exe"
+Apr 13 12:14:21.062 INFO Skipping unins file: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\unins000.msg"
+Apr 13 12:14:21.062 INFO Collected all directories and file handles for removal
+Apr 13 12:14:21.062 INFO All file handles marked for deletion
+Apr 13 12:14:21.062 INFO All files deleted
+Apr 13 12:14:21.062 INFO File removal operation completed
+Apr 13 12:14:21.062 INFO Successfully completed file removal operation

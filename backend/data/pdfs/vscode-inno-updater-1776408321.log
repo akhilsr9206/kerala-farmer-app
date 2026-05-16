@@ -1,0 +1,27 @@
+Apr 17 12:15:21.201 INFO Starting: C:\Users\gayat\AppData\Local\Programs\Microsoft VS Code\Code.exe, true, Updating Visual Studio Code...
+Apr 17 12:15:21.208 INFO Inno Updater v0.21.0
+Apr 17 12:15:21.209 INFO Starting update, silent = true
+Apr 17 12:15:21.258 INFO Starting rename process: code_path="C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe", old_exe_path="C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\old_Code.exe", new_exe_path="C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\new_Code.exe"
+Apr 17 12:15:21.258 INFO Found new executable: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\new_Code.exe"
+Apr 17 12:15:21.258 INFO Processing bin directory: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+Apr 17 12:15:21.259 INFO Found new bin file: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\new_code"
+Apr 17 12:15:21.309 INFO Renaming current to old: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code" -> "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\old_code"
+Apr 17 12:15:21.310 INFO Renaming new to current: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\new_code" -> "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code"
+Apr 17 12:15:21.311 INFO Found new bin file: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\new_code-tunnel.exe"
+Apr 17 12:15:21.311 INFO Renaming current to old: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code-tunnel.exe" -> "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\old_code-tunnel.exe"
+Apr 17 12:15:21.312 INFO Renaming new to current: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\new_code-tunnel.exe" -> "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code-tunnel.exe"
+Apr 17 12:15:21.312 INFO Found new bin file: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\new_code.cmd"
+Apr 17 12:15:21.312 INFO Renaming current to old: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code.cmd" -> "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\old_code.cmd"
+Apr 17 12:15:21.313 INFO Renaming new to current: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\new_code.cmd" -> "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code.cmd"
+Apr 17 12:15:21.313 INFO Bin directory processing complete. Successfully renamed 3 files
+Apr 17 12:15:21.313 INFO Renaming current to old: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe" -> "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\old_Code.exe"
+Apr 17 12:15:21.314 INFO Renaming new to current: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\new_Code.exe" -> "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+Apr 17 12:15:21.315 INFO Found new manifest file: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\new_Code.VisualElementsManifest.xml"
+Apr 17 12:15:21.315 INFO Renaming current to old: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.VisualElementsManifest.xml" -> "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\old_Code.VisualElementsManifest.xml"
+Apr 17 12:15:21.316 INFO Renaming new to current: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\new_Code.VisualElementsManifest.xml" -> "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.VisualElementsManifest.xml"
+Apr 17 12:15:21.316 INFO Successfully updated manifest file
+Apr 17 12:15:21.317 INFO No proxy exe name provided, skipping proxy executable rename
+Apr 17 12:15:21.323 INFO Code.exe is not running
+Apr 17 12:15:21.323 INFO cleanup_dll_files: "C:\\Users\\gayat\\AppData\\Local\\Programs\\Microsoft VS Code\\Code.exe"
+Apr 17 12:15:21.323 INFO ffmpeg.dll not found, skipping DLL cleanup
+Apr 17 12:15:21.323
