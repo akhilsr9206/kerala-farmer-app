@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    'Noto Sans Malayalam',
+    'Nirmala UI',
+    'Segoe UI',
+    sans-serif;
+  background: #f0f7f0;
+  color: #1a1a1a;
+}
+
+:root {
+  --green: #2d7a2d;
+  --light-green: #4CAF50;
+  --dark-green: #1b5e20;
+  --orange: #ff8c00;
+  --white: #ffffff;
+  --gray: #f5f5f5;
+  --shadow: 0 2px 12px rgba(0,0,0,0.1);
+}
+
+/* ── Buttons ─────────────────────────────────────────── */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  transition: all 0.2s;
+}
+
+button:hover {
+  opacity: 0.88;
+  transform: translateY(-1px);
+}
+
+/* ── Inputs & Textarea ───────────────────────────────── */
+input,
+textarea {
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-size: 15px;
+  width: 100%;
+  outline: none;
+  background: white;
+  color: #1a1a1a;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--light-green);
+  box-shadow: 0 0 5px rgba(76,175,80,0.35);
+}
+
+/* ── Dropdown Fix ────────────────────────────────────── */
+select {
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  padding: 10px 36px 10px 14px;
+  font-size: 15px;
+  width: 100%;
+  outline: none;
+  transition: border 0.2s, box-shadow 0.2s;
+
+  /* Force visible text */
+  color: #1a1a1a !important;
+  background-color: white !important;
+
+  /* Custom dropdown arrow */
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='14' height='14' viewBox='0 0 24 24'%3E%3Cpath fill='%23555' d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+  cursor: pointer;
+}
+
+select:focus {
+  border-color: var(--light-green);
+  box-shadow: 0 0 5px rgba(76,175,80,0.35);
+}
+
+/* Force each option to be dark text on white */
+select option {
+  background-color: white !important;
+  color: #1a1a1a !important;
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+select option:checked,
+select option:hover {
+  background-color: #e8f5e9 !important;
+  color: #1b5e20 !important;
+}
+
+/* ── Cards ───────────────────────────────────────────── */
+.card {
+  background: white;
+  border-radius: 14px;
+  padding: 24px;
+  box-shadow: var(--shadow);
+  margin-bottom: 20px;
+}
+
+/* ── Button Variants ─────────────────────────────────── */
+.btn-primary {
+  background: var(--light-green);
+  color: white;
+  width: 100%;
+  padding: 12px;
+  font-size: 15px;
+}
+
+.btn-secondary {
+  background: var(--orange);
+  color: white;
+}
+
+/* ── Tags ────────────────────────────────────────────── */
+.tag {
+  display: inline-block;
+  background: #e8f5e9;
+  color: var(--dark-green);
+  padding: 4px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 2px;
+}
+
+/* ── Status messages ─────────────────────────────────── */
+.loading {
+  text-align: center;
+  padding: 20px;
+  color: var(--green);
+  font-style: italic;
+}
+
+.error {
+  color: #c62828;
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+.success {
+  color: var(--dark-green);
+  font-size: 13px;
+  margin-top: 6px;
+}
+
+/* ── Scrollbar styling ───────────────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #a5d6a7;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4CAF50;
+}
+
+/* ── Malayalam font support ──────────────────────────── */
+.malayalam-text {
+  font-family: 'Noto Sans Malayalam', 'Nirmala UI', sans-serif;
+  line-height: 1.9;
+}
+
+/* Force dropdown option visibility - browser override */
+select > option {
+  color: #000000 !important;
+  background: #ffffff !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+}
